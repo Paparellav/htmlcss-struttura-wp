@@ -13,6 +13,7 @@
 
 .container {
     width: 80%;
+    max-width: 1200px;
     margin: 1em auto;
 }
 
@@ -21,27 +22,22 @@
 }
 
 .head-logo {
-    width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: #c268c3;
 }
 
 .jumbotron {
-    width: 100%;
-    height: 250px;
+    height: 320px;
     background-color: #e1d67a;
 }
 
-.m-azure {
+.layout {
     /* border: 1px solid blue; */
-    width: 100%;
-    height: 100%;
     background-color: #0085fd;
 }
 
 .superior-div {
-    width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: #abcfe7;
 }
 
@@ -50,22 +46,22 @@
 }
 
 .l-r-float {
-    width: 20%;
-    height: 250px;
+    width: 25%;
+    height: 720px;
     background-color: #abcfe7;
 }
 
 .center-float {
-    width: calc(60% - 20px);
-    height: 250px;
+    width: calc(50% - 30px);
+    height: 720px;
     background-color: #abcfe7;
-    margin: 15px 10px;
+    margin: 15px 15px;
 }
 
 .footer {
     display: inline-block;
     width: 100%;
-    height: 50px;
+    height: 60px;
     background-color: #6109ad;
-    margin-top: 5px;
+    margin-top: 10px;
 }
